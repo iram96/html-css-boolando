@@ -14,11 +14,10 @@ body{
     margin: 0 auto;
     display: inline-block;
     width: 100%;
-    height: 1200px;
+    height: 800px;
     position: relative;
     text-align: center;
 }
-
 .top-row-img{
     height: 700px;
     width: 500px;
@@ -28,6 +27,161 @@ body{
     margin-top: 25px;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+
+.bottom-row{
+    margin: 0 auto;
+    display: inline-block;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    text-align: center;
+}
+.bottom-row-img{
+    height: 700px;
+    width: 500px;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+/* First Row Img*/
+
+#img-levi:hover{
+    background-image: url("../img/1b.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+#img-guess:hover{
+    background-image: url("../img/2b.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+#img-suit:hover{
+    background-image: url("../img/3b.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+
+#img-levi{
+    background-image: url("../img/1.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+#img-guess{
+    background-image: url("../img/2.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+#img-suit{
+    background-image: url("../img/3.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Second Row Img */
+
+#img-levired{
+    background-image: url("../img/4.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+#img-deluxe{
+    background-image: url("../img/5.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+#img-esprit{
+    background-image: url("../img/6.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+#img-levired:hover{
+    background-image: url("../img/4b.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+#img-deluxe:hover{
+    background-image: url("../img/5b.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+#img-esprit:hover{
+    background-image: url("../img/6b.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Discounts */
+
+.discount-box{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    background-color: #EB0037;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    line-height: 30px;
+    
+}
+
+div.discount-box p{
+    color: white;
+    font-weight: bolder;
+    font-size: 15px; 
+    position: relative;
+    bottom: 15px;  
+}
+
+.sosten-box{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background-color: #00875A;
+    position: absolute;
+    left: 0px;
+    bottom: 20px;
+    line-height: 30px;
+}
+
+.discount-box + .sosten-box{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background-color: #00875A;
+    position: absolute;
+    left: 0px;
+    margin-left: 60px;
+    line-height: 30px;
+}
+
+
+
+div.sosten-box p{
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    position: relative;
+    bottom: 15px;
 }
 
 /* Hearts */
@@ -59,95 +213,7 @@ div.add-favorite:hover{
     color: red;
 }
 
-
-/* First row pics*/
-
-#img-levi:hover{
-    background-image: url("../img/1b.webp");
-    background-size: cover;
-    background-position: center;
-}
-
-#img-guess:hover{
-    background-image: url("../img/2b.webp");
-    background-size: cover;
-    background-position: center;
-}
-
-#img-suit:hover{
-    background-image: url("../img/3b.webp");
-    background-size: cover;
-    background-position: center;
-}
-
-
-#img-levi{
-    background-image: url("../img/1.webp");
-    background-size: cover;
-    background-position: center;
-}
-#img-guess{
-    background-image: url("../img/2.webp");
-    background-size: cover;
-    background-position: center;
-}
-#img-suit{
-    background-image: url("../img/3.webp");
-    background-size: cover;
-    background-position: center;
-}
-
-/* Discounts */
-
-.discount-box{
-    width: 50px;
-    height: 30px;
-    background-color: #EB0037;
-    position: absolute;
-    bottom: 20px;
-    text-align: center;
-    line-height: 30px;
-    
-}
-
-div.discount-box p{
-    color: white;
-    font-weight: bolder;
-    font-size: 15px; 
-    position: relative;
-    bottom: 15px;  
-}
-
-.sosten-box{
-    width: 100px;
-    height: 30px;
-    background-color: #00875A;
-    position: absolute;
-    bottom: 20px;
-    margin-left: 60px;
-    text-align: center;
-    line-height: 30px;
-}
-
-div.sosten-box p{
-    color: white;
-    font-weight: bolder;
-    font-size: 15px;
-    position: relative;
-    bottom: 15px;
-}
-
-/* First row description */
-
-
-.description{
-    margin: 0 auto;
-    display: block;
-    width: 100%;
-    height: 100px;
-    position: absolute;
-    text-align: center;
-}
+/* Row descriptions */
 
 .top-row-desc{
     height: 100px;
@@ -159,6 +225,27 @@ div.sosten-box p{
     margin-right: 20px;
 }
 
+.bottom-row-desc{
+    height: 100px;
+    width: 500px;
+    display: inline-block;
+    position: relative;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Description */
+
+.description{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    text-align: center;
+}
+
 .text-desc{
     margin: 0;
     text-align: left;
@@ -168,12 +255,16 @@ div.sosten-box p{
     font-weight: bolder;
 }
 
-/* span:nth-child(2) {
-    color: red;
-
-}  */
-
 span.red-price{
     color: red;
     font-weight: bolder;
 }
+
+span.red-price + span{
+    text-decoration:line-through;
+}
+
+/* span:nth-child(2) {
+    color: red;
+
+}  */
