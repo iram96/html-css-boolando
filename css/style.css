@@ -30,6 +30,8 @@ body{
     margin-right: 20px;
 }
 
+/* Hearts */
+
 .add-favorite{
     display: inline-block;
     position: absolute;
@@ -41,8 +43,20 @@ body{
 }
 
 div.add-favorite p{
+    cursor: pointer;
     font-size: 35px;
     margin: 15px;
+}
+
+div.add-favorite:hover{
+    display: inline-block;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    right: 0;
+    top: 20px;
+    color: red;
 }
 
 
@@ -99,7 +113,7 @@ div.add-favorite p{
 div.discount-box p{
     color: white;
     font-weight: bolder;
-    font-size: 80%; 
+    font-size: 15px; 
     position: relative;
     bottom: 15px;  
 }
@@ -118,7 +132,7 @@ div.discount-box p{
 div.sosten-box p{
     color: white;
     font-weight: bolder;
-    font-size: 80%;
+    font-size: 15px;
     position: relative;
     bottom: 15px;
 }
